@@ -36,3 +36,5 @@ bower_components
 /.idea
 dc-frontend.*
 dc-frontend-grailsPlugins.iml
+.classpath
+.project
