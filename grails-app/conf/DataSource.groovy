@@ -20,6 +20,7 @@ environments {
             dbCreate = "update" // one of 'create', 'create-drop', 'update', 'validate', ''
             pooled = false
             url = "jdbc:postgresql://127.0.0.1:5432/digitalcandy_frontend_development"
+            hibernate.default_schema = "public"
             username = "ferdous"
             password = "f"
             show_sql = "true"
@@ -30,6 +31,7 @@ environments {
             dbCreate = "update"
             pooled = false
             "jdbc:postgresql://127.0.0.1:5432/digitalcandy_frontend_test"
+            hibernate.default_schema = "public"
             username = "ferdous"
             password = "f"
             show_sql = "true"
