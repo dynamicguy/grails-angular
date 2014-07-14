@@ -33,3 +33,6 @@ bower_components
 
 # "temporary" build files
 /target
+/.idea
+dc-frontend.*
+dc-frontend-grailsPlugins.iml
